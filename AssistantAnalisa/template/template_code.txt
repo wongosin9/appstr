@@ -1,0 +1,9 @@
+Create a Python script using pandas to perform the equivalent operation described in the text:
+'''
+    Query: {text_input}
+    CSV Columns: {csv_structure}
+    str_template_ml: {str_template_ml}
+
+'''
+The program should use the pandas library and streamlit to perform data processing. 
+Generate a table and a graph as well.

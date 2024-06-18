@@ -1,0 +1,25 @@
+Create a Python script using pandas to perform the equivalent operation described in the text:
+'''
+    Query: {text_input}
+    tx_training.csv Columns: "notxfraud,netid,chanelid,typetxid,noidterminal,lokasitx,jrklokasi,norekening,noarsip,nominaltx,tgltx,jamtx,reksumtuj,txtimestamp,datasource,issiid,destiid,acquid,idnumber,id,terminfo,cardno,geoloc,acqloc,fromacc,fromname,destacc,destname,jnsrsk,stsproses,txcode"
+    ref_chanel.csv Columns : "chanelid,chanelname,txdpo,txwtd,txtrf,txinq,txpay,tcpch,userid,tglupdate,chanelatm,chanelpygw"
+    file csv : "data/"
+'''
+The program should use the pandas library and streamlit to perform data processing. 
+Generate a table and a graph as well.
+tampilkan sesuai permintaan jika menyebutkan :
+ref_chanel maka load table :data/ref_chanel
+transaksi  maka load table :data/tx_training
+
+
+# Load the data :
+tx_training = pd.read_csv('data/tx_training.csv')
+ref_chanel = pd.read_csv('data/ref_chanel.csv')
+
+# Menggabungkan data berdasarkan kolom 'chanelid'
+relasi file tx_training dengan ref_chanel
+merged_data = pd.merge(tx_training, ref_chanel, on='chanelid')
+
+# view data:
+selalu tampilkan norekening dengan type string 
+# 

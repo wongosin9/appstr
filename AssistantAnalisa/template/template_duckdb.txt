@@ -1,0 +1,91 @@
+Create a Python script using pandas and duckdb to perform the equivalent operation described in the text:
+'''
+    Query: {text_input}
+    tx_training.csv Columns: "notxfraud,netid,chanelid,typetxid,noidterminal,lokasitx,jrklokasi,norekening,noarsip,nominaltx,tgltx,jamtx,reksumtuj,txtimestamp,datasource,issiid,destiid,acquid,idnumber,id,terminfo,cardno,geoloc,acqloc,fromacc,fromname,destacc,destname,jnsrsk,stsproses,txcode"
+    ref_chanel.csv Columns : "chanelid,chanelname,txdpo,txwtd,txtrf,txinq,txpay,tcpch,userid,tglupdate,chanelatm,chanelpygw"
+    logsusopect.csv = "rolebaseid,norekening,txtimestamp,datasource,datadetail,datainfo,stsawal,stsakhir,stsstaff,stsspv,tglupstaff,tglupspv,userstaff,userspv,noarsip,logsuspectid,jsondata,jsondetail"
+    ref_typetx.csv = "typetxid,typetxname,userid,tglupdate,map_typetx,maptypetxpgw"
+    file csv : "data/"
+'''
+The program should use the pandas library and streamlit to perform data processing. 
+Generate a table and a graph as well.
+tampilkan sesuai permintaan jika menyebutkan :
+ref_chanel maka load table :data/ref_chanel
+transaksi  maka load table :data/tx_training
+logsuspect maka load table :data/tx_logsuspect  
+ref_typetx maka load table :data/ref_typetx.csv
+
+# Load the data :
+tx_training = pd.read_csv('data/tx_training.csv')
+ref_chanel = pd.read_csv('data/ref_chanel.csv')
+logsuspect  = pd.read_csv('data/logsuspect.csv')
+ref_typetx = pd.read_csv('data/ref_typetx.csv')
+
+# Menggabungkan data berdasarkan kolom 'chanelid'
+relasi file tx_training dengan ref_chanel
+merged_data = pd.merge(tx_training, ref_chanel, on='chanelid')
+merge_data  = pd.merge(tx_training, logsuspect, on='txtimestamp','norekening')
+
+relasi file tx_training dengan ref_typetx
+merged_data = pd.merge(tx_training, ref_typetx, on='typetxid')
+
+# view data:
+selalu tampilkan norekening dengan type string 
+
+# Menjalankan Query pada DuckDB: 
+Menjalankan query SQL langsung pada DataFrame pandas dengan duckdb tanpa harus menyimpan atau menggunakan tabel perantara misal : transaksi_df = con.execute("SELECT * FROM df_postgres").fetchdf()
+transaksi_df = con.execute("SELECT * FROM df_postgres").fetchdf()
+membuat koneksi ke basis data DuckDB yang berada sepenuhnya di memori (RAM). misal : con = duckdb.connect(database=':memory:')
+
+#ini adalah contoh untuk select data tx_training :
+import pandas as pd
+import duckdb
+
+# Open a connection to the in-memory DuckDB database
+con = duckdb.connect(database=':memory:')
+
+# Load the data into the database or CSV
+tx_training = pd.read_csv('data/tx_training.csv')
+ref_chanel = pd.read_csv('data/ref_chanel.csv')
+
+# Merge the data on the 'chanelid' column
+merged_data = con.execute("SELECT * FROM tx_training JOIN ref_chanel ON tx_training.chanelid = ref_chanel.chanelid").fetchdf()
+
+# Query the merged data to get the top 10 transactions
+top_10_transactions = con.execute("SELECT * FROM merged_data ORDER BY nominaltx DESC LIMIT 10").fetchdf()
+
+# Print the top 10 transactions
+print(top_10_transactions)
+
+kirim code python nya saja tanpa description
+jangan tulis code untuk Load data based on user selection
+
+Jangan tampilkan Create a sidebar to select the table jika tidak diperintah 
+Jangan tampilkan Get user input for the rekening number jika tidak diperintah
+Jangan tampilkan Get user input for rekening number jika tidak diperintah
+style graphic selalu menggunakan bar
+konversi norekning dari tx_training menjadi varchar lakukan spt in =tx_training['norekening'] = tx_training['norekening'].apply(lambda x: str(int(x)) if pd.notnull(x) else '')
+
+tampilkan graphic :
+menggunakan echarst misal: 
+import * as echarts from 'echarts';
+
+var chartDom = document.getElementById('main');
+var myChart = echarts.init(chartDom);
+var option;
+
+option = {
+  xAxis: {
+    type: 'category',
+    data: ['Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+  },
+  yAxis: {
+    type: 'value'
+  },
+  series: [
+    {
+      data: [150, 230, 224, 218, 135, 147, 260],
+      type: 'line'
+    }
+  ]
+};

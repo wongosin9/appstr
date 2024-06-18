@@ -1,0 +1,84 @@
+Daftar Prompt Terbaik untuk Menguji Anomali Transaksi Nasabah dengan Machine Learning
+Berikut adalah beberapa prompt terbaik untuk menguji anomali transaksi nasabah dengan machine learning:
+
+1. Deteksi Penipuan Transaksi Kartu Kredit:
+
+Tujuan:
+Mengembangkan model machine learning untuk mendeteksi transaksi kartu kredit penipuan berdasarkan data transaksi.
+
+Data:
+Dataset transaksi kartu kredit, termasuk detail seperti jumlah transaksi, ID merchant, lokasi, waktu, dan informasi pemegang kartu.
+Tandai setiap transaksi sebagai penipuan atau sah.
+
+Persyaratan Model:
+Gunakan algoritma machine learning, seperti Random Forest, Support Vector Machines (SVM), atau Isolation Forest, untuk mengklasifikasikan transaksi sebagai penipuan atau sah.
+Evaluasi kinerja model menggunakan metrik seperti presisi, recall, F1-score, dan kurva AUC-ROC.
+
+Deteksi Anomali:
+Latih model pada data transaksi berlabel.
+Untuk setiap transaksi baru, lewati melalui model machine learning yang terlatih.
+Klasifikasikan transaksi sebagai penipuan atau sah berdasarkan prediksi model.
+
+Evaluasi:
+Evaluasi kemampuan model untuk mengidentifikasi transaksi penipuan sambil meminimalkan positif palsu.
+Analisis jenis transaksi yang salah diklasifikasikan sebagai penipuan untuk mengidentifikasi area yang perlu ditingkatkan.
+Perbaiki parameter model dan pemilihan fitur berdasarkan hasil evaluasi.
+2. Identifikasi Penarikan Uang ATM Berlebihan:
+
+Tujuan:
+Mengembangkan model machine learning untuk mengidentifikasi penarikan uang ATM berlebihan berdasarkan data penarikan.
+
+Data:
+Dataset penarikan ATM, termasuk detail seperti jumlah penarikan, tanggal, waktu, lokasi, dan ID akun.
+Tandai penarikan yang berlebihan, seperti penarikan besar dalam waktu singkat atau penarikan dari ATM di lokasi yang tidak biasa.
+
+Persyaratan Model:
+Gunakan algoritma machine learning, seperti Anomaly Detection Forest (ADF) atau Gaussian Mixture Model (GMM), untuk mengidentifikasi penarikan ATM yang berlebihan.
+Evaluasi kinerja model menggunakan metrik seperti presisi, recall, F1-score, dan kurva AUC-ROC.
+
+Deteksi Anomali:
+Latih model pada data penarikan ATM.
+Untuk setiap penarikan ATM baru, lewati melalui model machine learning yang terlatih.
+Tandai penarikan sebagai berlebihan jika skor anomali model melebihi ambang batas yang ditentukan sebelumnya.
+
+Evaluasi:
+Evaluasi kemampuan model untuk mengidentifikasi penarikan ATM berlebihan sambil meminimalkan positif palsu.
+Analisis jenis penarikan yang salah diklasifikasikan sebagai berlebihan untuk mengidentifikasi area yang perlu ditingkatkan.
+Perbaiki parameter model dan pemilihan fitur berdasarkan hasil evaluasi.
+
+3. Deteksi Transaksi Berulang yang Mencurigakan:
+
+Tujuan:
+Mengembangkan model machine learning untuk mendeteksi transaksi berulang yang mencurigakan dalam rekening bank.
+
+
+Data:
+Dataset transaksi bank, termasuk detail seperti jumlah transaksi, tanggal, waktu, ID merchant, dan ID akun.
+Tandai transaksi berulang yang mencurigakan, seperti pembelian besar yang tidak biasa atau transfer ke akun yang tidak dikenal.
+
+Persyaratan Model:
+Gunakan algoritma machine learning, seperti Sequential Pattern Mining (SPM) atau Hidden Markov Models (HMM), untuk mengidentifikasi pola transaksi berulang yang mencurigakan.
+Evaluasi kinerja model menggunakan metrik seperti presisi, recall, F1-score, dan kurva AUC-ROC.
+
+Deteksi Anomali:
+Latih model pada data transaksi bank.
+Untuk setiap set transaksi baru, lewati melalui model machine learning yang terlatih.
+Tandai set transaksi sebagai mencurigakan jika model mendeteksi pola berulang yang tidak biasa.
+
+Evaluasi:
+Evaluasi kemampuan model untuk mengidentifikasi transaksi berulang yang mencurigakan sambil meminimalkan positif palsu.
+Analisis jenis set transaksi yang salah diklasifikasikan sebagai mencurigakan untuk mengidentifikasi area yang perlu ditingkatkan.
+Perbaiki parameter model dan pemilihan fitur berdasarkan hasil evaluasi.
+
+4. Memprediksi Transaksi Berisiko Tinggi:
+
+Tujuan:
+Mengembangkan model machine learning untuk memprediksi transaksi yang berisiko tinggi berdasarkan data transaksi dan profil nasabah.
+
+Data:
+Dataset transaksi, termasuk detail seperti jumlah transaksi, tanggal, waktu, ID merchant, ID akun, dan karakteristik nasabah seperti usia, pekerjaan, dan pendapatan.
+Tandai transaksi berisiko tinggi, seperti pembelian besar yang tidak biasa atau transfer ke negara berisiko tinggi.
+
+Persyaratan Model:
+Gunakan algoritma machine learning, seperti Logistic Regression atau Random Forest, untuk memprediksi probabilitas transaksi berisiko tinggi.
+Evaluasi kinerja model menggunakan metrik
