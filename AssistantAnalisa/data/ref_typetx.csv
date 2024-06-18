@@ -1,0 +1,8 @@
+"typetxid","typetxname","userid","tglupdate","map_typetx","maptypetxpgw"
+100,Tarik Tunai,,,"TRK,tarik,TARIK,Tarik","01"
+300,Inquery,,,"3","3"
+400,Transfer,,,TRF,"46"
+500,Payment/Purchase,,,"PAY,pay,TOP,top,payment,paymen,QR,PMN","50"
+600,Purchase,,,"5","5"
+900,Reversal,,,"0000000",
+999,Semua Jenis Transaksi,,,"0000000",

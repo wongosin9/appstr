@@ -1,0 +1,3 @@
+"chanelid","chanelname","txdpo","txwtd","txtrf","txinq","txpay","tcpch","userid","tglupdate","chanelatm","chanelpygw"
+200,Mobile Banking,0,0,1,1,1,1,,,"8",mbanking
+100,ATM,0,1,1,1,1,1,,,"2",
