@@ -1,0 +1,104 @@
+user_input,message,code,username,date
+tampilkan 10 terbesar transaksi nasabah ,Code executed successfully. DataFrame is available.,user2,2024-06-10
+tampilkan 10 terbesar transaksi nasabah ,Code executed successfully. DataFrame is available.,user2,2024-06-10
+tampilkan 10 terbesar transaksi nasabah ,Code executed successfully. DataFrame is available.,user2,2024-06-10
+halo ,Error: 'halo',user2,2024-06-10
+halo,Error: Cannot mask with non-boolean array containing NA / NaN values,user2,2024-06-10
+keluarkan data untuk transaksi ATM atau chanel 100,Code executed successfully. DataFrame is available.,user2,2024-06-10
+keluarkan data untuk transaksi ATM atau chanel 100,Code executed successfully. DataFrame is available.,user2,2024-06-10
+keluarkan data untuk transaksi chanel 100,Code executed successfully. DataFrame is available.,user2,2024-06-10
+keluarkan data untuk transaksi ATM atau chanel 100,Code executed successfully. DataFrame is available.,user2,2024-06-10
+keluarkan data untuk transaksi chanel 100,Code executed successfully. DataFrame is available.,user2,2024-06-10
+keluarkan data untuk transaksi chanel atm,Error: expr cannot be an empty string,user2,2024-06-10
+keluarkan data untuk transaksi ATM atau chanel 100,Code executed successfully. DataFrame is available.,user2,2024-06-10
+keluarkan data untuk transaksi chanel 100,Code executed successfully. DataFrame is available.,user2,2024-06-10
+keluarkan data untuk transaksi chanel atm,Error: expr cannot be an empty string,user2,2024-06-10
+keluarkan data untuk transaksi chanel atm,Code executed successfully. DataFrame is available.,user2,2024-06-10
+keluarkan data untuk transaksi ATM atau chanel 100,Code executed successfully. DataFrame is available.,user2,2024-06-10
+keluarkan data untuk transaksi chanel 100,Code executed successfully. DataFrame is available.,user2,2024-06-10
+keluarkan data untuk transaksi chanel atm,Error: expr cannot be an empty string,user2,2024-06-10
+keluarkan data untuk transaksi chanel atm,Code executed successfully. DataFrame is available.,user2,2024-06-10
+keluarkan data untuk transaksi chanel atm jika ada permintaan chanel atm maka chanel harus di fileter dengan value 100,Code executed successfully. DataFrame is available.,user2,2024-06-10
+tampilkan data hanya 10 row,Code executed successfully. DataFrame is available.,user2,2024-06-10
+tampilkan data hanya 10 row,Code executed successfully. DataFrame is available.,user2,2024-06-10
+tampilkan data hanya 10 row tanpa graphics,Error: [Errno 2] No such file or directory: 'tx_training.csv',user2,2024-06-10
+tampilkan data hanya 10 row,Code executed successfully. DataFrame is available.,user2,2024-06-10
+tampilkan data hanya 10 row tanpa graphics,Error: [Errno 2] No such file or directory: 'tx_training.csv',user2,2024-06-10
+ tampilkan data hanya 10 row  tanpa graph,Code executed successfully. DataFrame is available.,user2,2024-06-10
+tampilkan data hanya 10 row,Code executed successfully. DataFrame is available.,user2,2024-06-10
+tampilkan data hanya 10 row tanpa graphics,Error: [Errno 2] No such file or directory: 'tx_training.csv',user2,2024-06-10
+ tampilkan data hanya 10 row  tanpa graph,Code executed successfully. DataFrame is available.,user2,2024-06-10
+ tampilkan data hanya 10 row  tanpa graph,Code executed successfully. DataFrame is available.,user2,2024-06-10
+Cek data chanel 200,Code executed successfully. DataFrame is available.,user2,2024-06-10
+Cek data chanel 200,Code executed successfully. DataFrame is available.,user2,2024-06-10
+ tampilkan 10 terbesar transaksi nasabah ,Code executed successfully. DataFrame is available.,user2,2024-06-10
+Cek data,Code executed successfully. DataFrame is available.,user2,2024-06-10
+Cek data,Code executed successfully. DataFrame is available.,user2,2024-06-10
+tampilkan 10 terbesar transaksi nasabah,Code executed successfully. DataFrame is available.,user2,2024-06-10
+Cek data,Code executed successfully. DataFrame is available.,user2,2024-06-10
+tampilkan 10 terbesar transaksi nasabah,Code executed successfully. DataFrame is available.,user2,2024-06-10
+tampilkan 10 terbesar transaksi nasabah,Code executed successfully. DataFrame is available.,user2,2024-06-10
+"tampilkan data transaksi dalam rentang waktu 07:00-19:00, yang ditampilkan hanya nominalnya saja",Code executed successfully. DataFrame is available.,user2,2024-06-10
+"tampilkan data transaksi dalam rentang waktu 07:00-19:00, yang ditampilkan hanya nominalnya saja",Code executed successfully. DataFrame is available.,user2,2024-06-10
+"tampilkan data transaksi dalam rentang waktu 07:00-19:00, yang ditampilkan 
+norekening ,jamtx nominalnya saja","Error: invalid syntax (<unknown>, line 1)",user2,2024-06-10
+"tampilkan data transaksi dalam rentang waktu 07:00-19:00, yang ditampilkan hanya nominalnya saja",Code executed successfully. DataFrame is available.,user2,2024-06-10
+"tampilkan data transaksi dalam rentang waktu 07:00-19:00, yang ditampilkan 
+norekening ,jamtx nominalnya saja","Error: invalid syntax (<unknown>, line 1)",user2,2024-06-10
+"tampilkan data transaksi dalam rentang waktu 07:00-19:00, yang ditampilkan 
+norekening ,jamtx nominalnya saja",Error: VegaChartsMixin.line_chart() takes from 1 to 2 positional arguments but 3 were given,user2,2024-06-10
+"tampilkan data transaksi dalam rentang waktu 07:00-19:00, yang ditampilkan hanya nominalnya saja",Code executed successfully. DataFrame is available.,user2,2024-06-10
+"tampilkan data transaksi dalam rentang waktu 07:00-19:00, yang ditampilkan 
+norekening ,jamtx nominalnya saja","Error: invalid syntax (<unknown>, line 1)",user2,2024-06-10
+"tampilkan data transaksi dalam rentang waktu 07:00-19:00, yang ditampilkan 
+norekening ,jamtx nominalnya saja",Error: VegaChartsMixin.line_chart() takes from 1 to 2 positional arguments but 3 were given,user2,2024-06-10
+"tampilkan data transaksi dalam rentang waktu 07:00-09:00, yang ditampilkan 
+norekening ,jamtx nominalnya saja","Code executed, but no DataFrame was created.",user2,2024-06-10
+"tampilkan data transaksi dalam rentang waktu 07:00-19:00, yang ditampilkan hanya nominalnya saja",Code executed successfully. DataFrame is available.,user2,2024-06-10
+"tampilkan data transaksi dalam rentang waktu 07:00-19:00, yang ditampilkan 
+norekening ,jamtx nominalnya saja","Error: invalid syntax (<unknown>, line 1)",user2,2024-06-10
+"tampilkan data transaksi dalam rentang waktu 07:00-19:00, yang ditampilkan 
+norekening ,jamtx nominalnya saja",Error: VegaChartsMixin.line_chart() takes from 1 to 2 positional arguments but 3 were given,user2,2024-06-10
+"tampilkan data transaksi dalam rentang waktu 07:00-09:00, yang ditampilkan 
+norekening ,jamtx nominalnya saja","Code executed, but no DataFrame was created.",user2,2024-06-10
+"tampilkan data transaksi dalam rentang jam 07:00-09:00, yang ditampilkan 
+norekening ,jamtx nominalnya saja",Error: The columns used for rendering the chart contain too many values with mixed types. Please select the columns manually via the y parameter.,user2,2024-06-10
+"tampilkan data transaksi dalam rentang waktu 07:00-19:00, yang ditampilkan hanya nominalnya saja",Code executed successfully. DataFrame is available.,user2,2024-06-10
+"tampilkan data transaksi dalam rentang waktu 07:00-19:00, yang ditampilkan 
+norekening ,jamtx nominalnya saja","Error: invalid syntax (<unknown>, line 1)",user2,2024-06-10
+"tampilkan data transaksi dalam rentang waktu 07:00-19:00, yang ditampilkan 
+norekening ,jamtx nominalnya saja",Error: VegaChartsMixin.line_chart() takes from 1 to 2 positional arguments but 3 were given,user2,2024-06-10
+"tampilkan data transaksi dalam rentang waktu 07:00-09:00, yang ditampilkan 
+norekening ,jamtx nominalnya saja","Code executed, but no DataFrame was created.",user2,2024-06-10
+"tampilkan data transaksi dalam rentang jam 07:00-09:00, yang ditampilkan 
+norekening ,jamtx nominalnya saja",Error: The columns used for rendering the chart contain too many values with mixed types. Please select the columns manually via the y parameter.,user2,2024-06-10
+"tampilkan data transaksi dalam rentang jam 07:00-09:00, yang ditampilkan 
+norekening ,jamtx nominalnya saja dan urutkan berdasrkan jam",Error: 'jamtx',user2,2024-06-10
+"tampilkan data transaksi dalam rentang waktu 07:00-19:00, yang ditampilkan hanya nominalnya saja",Code executed successfully. DataFrame is available.,user2,2024-06-10
+"tampilkan data transaksi dalam rentang waktu 07:00-19:00, yang ditampilkan 
+norekening ,jamtx nominalnya saja","Error: invalid syntax (<unknown>, line 1)",user2,2024-06-10
+"tampilkan data transaksi dalam rentang waktu 07:00-19:00, yang ditampilkan 
+norekening ,jamtx nominalnya saja",Error: VegaChartsMixin.line_chart() takes from 1 to 2 positional arguments but 3 were given,user2,2024-06-10
+"tampilkan data transaksi dalam rentang waktu 07:00-09:00, yang ditampilkan 
+norekening ,jamtx nominalnya saja","Code executed, but no DataFrame was created.",user2,2024-06-10
+"tampilkan data transaksi dalam rentang jam 07:00-09:00, yang ditampilkan 
+norekening ,jamtx nominalnya saja",Error: The columns used for rendering the chart contain too many values with mixed types. Please select the columns manually via the y parameter.,user2,2024-06-10
+"tampilkan data transaksi dalam rentang jam 07:00-09:00, yang ditampilkan 
+norekening ,jamtx nominalnya saja dan urutkan berdasrkan jam",Error: 'jamtx',user2,2024-06-10
+"tampilkan data transaksi dalam rentang jam 07:00-09:00, yang ditampilkan 
+norekening ,jamtx nominalnya saja dan urutkan berdasrkan jam",Error: The columns used for rendering the chart contain too many values with mixed types. Please select the columns manually via the y parameter.,user2,2024-06-10
+"tampilkan data transaksi dalam rentang waktu 07:00-19:00, yang ditampilkan hanya nominalnya saja",Code executed successfully. DataFrame is available.,user2,2024-06-10
+"tampilkan data transaksi dalam rentang waktu 07:00-19:00, yang ditampilkan 
+norekening ,jamtx nominalnya saja","Error: invalid syntax (<unknown>, line 1)",user2,2024-06-10
+"tampilkan data transaksi dalam rentang waktu 07:00-19:00, yang ditampilkan 
+norekening ,jamtx nominalnya saja",Error: VegaChartsMixin.line_chart() takes from 1 to 2 positional arguments but 3 were given,user2,2024-06-10
+"tampilkan data transaksi dalam rentang waktu 07:00-09:00, yang ditampilkan 
+norekening ,jamtx nominalnya saja","Code executed, but no DataFrame was created.",user2,2024-06-10
+"tampilkan data transaksi dalam rentang jam 07:00-09:00, yang ditampilkan 
+norekening ,jamtx nominalnya saja",Error: The columns used for rendering the chart contain too many values with mixed types. Please select the columns manually via the y parameter.,user2,2024-06-10
+"tampilkan data transaksi dalam rentang jam 07:00-09:00, yang ditampilkan 
+norekening ,jamtx nominalnya saja dan urutkan berdasrkan jam",Error: 'jamtx',user2,2024-06-10
+"tampilkan data transaksi dalam rentang jam 07:00-09:00, yang ditampilkan 
+norekening ,jamtx nominalnya saja dan urutkan berdasrkan jam",Error: The columns used for rendering the chart contain too many values with mixed types. Please select the columns manually via the y parameter.,user2,2024-06-10
+"tampilkan 10 terbesar transaksi nasabah
+","Code executed, but no DataFrame was created.",user2,2024-06-10
